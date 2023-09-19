@@ -1,0 +1,44 @@
+As a store owner, I want to easily add new products to my inventory,
+including their name, description, price, and quantity, so that I can
+keep my stock up-to-date effortlessly.
+
+As a store manager, I want to set low-stock alerts for specific items, 
+so that I receive notifications when it's time to reorder 
+to prevent running out of essential products.
+
+As a sales associate, I want to quickly search for products by name or
+ category, so that I can assist customers in finding the items 
+ they need efficiently.
+
+As a purchasing manager, I want to generate reports on sales trends and
+product performance over time, so that I can make informed decisions
+about which items to restock or discontinue.
+
+As a warehouse staff member, I want to use barcode scanning technology 
+to update inventory levels accurately and reduce errors during the 
+receiving and stocking process.
+
+As an accountant, I want to export financial reports that show the 
+value of our current inventory, helping me ensure accurate accounting and
+tax calculations.
+
+As a store owner, I want to manage multiple store locations or branches 
+from a centralized dashboard, allowing me to oversee the inventory levels 
+and performance of each location.
+
+As a supplier, I want to receive purchase orders from retail businesses
+using Merch Manager, streamlining the order fulfilment process and 
+ensuring accurate deliveries.
+
+As an inventory auditor, I want to conduct regular audits using the app
+to reconcile physical stock levels with the system's records, 
+ensuring inventory accuracy.
+
+As a business owner, I want to receive insights and recommendations
+from the app on popular products, slow-moving items, and opportunities 
+to optimize my inventory management strategies.
+
+These user stories cover a range of roles and scenarios, illustrating
+how "Merch Manager" can cater to the needs of different users
+within a retail business, from owners and managers to
+sales associates and warehouse staff.
