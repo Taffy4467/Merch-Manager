@@ -12,7 +12,7 @@ const handleImageUpload = async (req) => {
 
   try {
     const uploadedFile = await cloudinary.uploader.upload(req.file.path, {
-      folder: "Pinvent App",
+      folder: "Merch Manager",
       resource_type: "image",
     });
 
