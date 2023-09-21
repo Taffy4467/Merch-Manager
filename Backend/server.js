@@ -21,7 +21,8 @@ const cookieParser = require('cookie-parser');
 const errorhandler = require('./middleware/errorMiddleware');
 
 // Import user routes
-const userRoute = require('./routes/userroute');
+const userRoute = require('./routes/userRoute');
+const productRoute = require('./routes/productRoute');
 
 // Create an Express application
 const app = express();
@@ -43,6 +44,7 @@ app.use(bodyParser.json());
 
 // Use the user routes under the '/api/users' path
 app.use('/api/users', userRoute);
+app.use('/api/products', productRoute);
 
 // Define a basic route for the home page
 app.get('/', (req, res) => {

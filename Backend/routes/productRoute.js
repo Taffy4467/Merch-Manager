@@ -8,7 +8,7 @@ const {
   deleteProduct,
   updateProduct,
 } = require("../controllers/productController"); // Import product controller functions
-const { upload } = require("../utils/fileUpload"); // Import file upload middleware
+const { upload } = require("../utils/fileupload"); // Import file upload middleware
 
 // Define routes for creating, updating, getting, and deleting products
 router.post("/", protect, upload.single("image"), createProduct); // Create a new product

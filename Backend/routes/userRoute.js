@@ -4,7 +4,6 @@ const router = express.Router();
 const bcrypt = require('bcryptjs');
 const protect = require('../middleware/authMiddleware');
 
-
 router.post('/register', registeruser);
 router.post('/login', loginuser);
 router.get('/logout', logoutuser);

@@ -1,8 +1,9 @@
 // Import necessary modules and dependencies
 const asyncHandler = require("express-async-handler");
 const Product = require("../models/productmodel");
-const { fileSizeFormatter } = require("../utils/fileUpload");
+const { fileSizeFormatter } = require("../utils/fileupload");
 const cloudinary = require("cloudinary").v2;
+const multer = require("multer");
 
 // Configure Cloudinary and Handle Image Upload (Reusable Function)
 const handleImageUpload = async (req) => {
